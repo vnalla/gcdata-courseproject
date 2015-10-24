@@ -23,57 +23,107 @@ The `run_analysis.R` script uses the following 5 steps to create the tidy data s
 The tidy data set contains total of 81 columns with average mean and std for various accelaration, angular measurements in X, Y, and Z directions for each subject and activity combination a total of 30 * 6 = 180 rows. 
 
   SubjectId                                                    
+	
 	Integer subject identifier
   Activity                                                     
+	
 	Factor w/ 6 levels 
+	
 		LAYING
+		
 		SITTING
+	
 		STANDING
+		
 		WALKING
+	
 		WALKING_DOWNSTAIRS
+		
 		WALKING_UPSTAIRS
 
+  
   TimeDomainBodyAccelerationMeanX                              
+	 
 	 numeric  - average value by activity for each subject
+  
   TimeDomainBodyAccelerationMeanY                              
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainBodyAccelerationMeanZ                              
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainBodyAccelerationStandardDeviationX                 
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainBodyAccelerationStandardDeviationY                 
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainBodyAccelerationStandardDeviationZ                 
+	
 	 numeric - average value by activity for each subject
+  
   TimeDomainGravityAccelerationMeanX                           
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainGravityAccelerationMeanY                           
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainGravityAccelerationMeanZ                           
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainGravityAccelerationStandardDeviationX              
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainGravityAccelerationStandardDeviationY              
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainGravityAccelerationStandardDeviationZ              
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainBodyAccelerationJerkMeanX                          
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainBodyAccelerationJerkMeanY                          
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainBodyAccelerationJerkMeanZ                          
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainBodyAccelerationJerkStandardDeviationX             
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainBodyAccelerationJerkStandardDeviationY             
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainBodyAccelerationJerkStandardDeviationZ             
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainBodyGyroscopeMeanX                                 
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainBodyGyroscopeMeanY                                 
+	 
 	 numeric - average value by activity for each subject
+  
   TimeDomainBodyGyroscopeMeanZ                                 
+	 
 	 numeric - average value by activity for each subject
   TimeDomainBodyGyroscopeStandardDeviationX                    
 	 numeric - average value by activity for each subject
