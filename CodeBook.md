@@ -24,7 +24,7 @@ The tidy data set contains total of 81 columns with average mean and std for var
 
   SubjectId                                                    
 	
-	Integer subject identifier
+	Integer subject identifier a factor with 30 levels for 1..30
   Activity                                                     
 	
 	Factor w/ 6 levels 
